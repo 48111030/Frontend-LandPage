@@ -1,0 +1,60 @@
+.pantalla5 {
+  background: linear-gradient(to bottom right, #8836c2, #2e0433);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.titulo5 {
+  font-size: 32px;
+  margin-bottom: 40px;
+ position: relative;
+ top: 20px;
+}
+
+.tarjetas-fisa {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tarjeta {
+  background-color: #3887B8;
+  border-radius: 20px;
+  padding: 30px 20px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  height: 65vh;
+  width: 17vw;
+}
+.cuadraditolio {
+  background-color: #3A3E6D;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+
+}
+
+
+
+.tarjeta img {
+  width: 140px;
+  height: auto;
+}
+
+.tarjeta p {
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.a3, .a1 {
+    position: relative;
+    top: 30%;
+}
