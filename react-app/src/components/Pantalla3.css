@@ -1,0 +1,35 @@
+.pantalla3 {
+  background: linear-gradient(to bottom right, #8836c2, #2e0433);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px;
+  gap: 60px;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.textos-ia h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.textos-ia p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+.ia-img {
+  width: 300px;
+  max-width: 100%;
+}

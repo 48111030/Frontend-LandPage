@@ -1,0 +1,59 @@
+.pantalla {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+  position: relative;
+}
+
+.pantalla1 {
+  background: linear-gradient(to bottom right, #8836c2, #2e0433);
+  color: white;
+}
+
+.LOGOGRANDE {
+  position: relative;
+  left: 30%;
+}
+
+.persona {
+  position: absolute;
+  top: 212px;
+  left: 18%;
+  width: 400px;
+  z-index: 2;
+}
+
+.text-container {
+  position: absolute;
+  bottom: 50px;
+  right: 24%;
+  background-color: rgba(132, 78, 174, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  height: 200px;
+  z-index: 0;
+}
+
+.predict {
+  position: relative;
+  bottom: 250px;
+  left: 620px;
+  font-size: 40px;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* 🔴 Esto elimina el scroll horizontal */
+  font-family: 'Arial', sans-serif;
+}

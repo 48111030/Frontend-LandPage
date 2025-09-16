@@ -1,12 +1,16 @@
-// src/App.js
-import React from 'react';
-import LandingPage from 'LandingPage';
+import Header from './components/Header';
+import Pantalla1 from './components/Pantalla1';
+import Pantalla2 from './components/Pantalla2';
+import Pantalla3 from './components/Pantalla3';
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage />
-    </div>
+    <>
+      <Header />
+      <Pantalla1 />
+      <Pantalla2 />
+      <Pantalla3 />
+    </>
   );
 }
 
