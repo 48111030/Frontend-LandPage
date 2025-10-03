@@ -1,35 +1,36 @@
-import './Pantalla5.css';
+// FacilidadMensaje.jsx
+import React from "react";
+import "./Pantalla5.css";
 
-const Pantalla5 = () => {
+const pantalla5 = () => {
   return (
-    <section className="pantalla pantalla5">
-      <h1 className="titulo5">FISA</h1>
-      <div className="tarjetas-fisa">
-        <div className="tarjeta">
-          <div className="cuadraditolio "><img src="/reloj.png" alt="Reloj" className='a1'/></div>
-          <p>Ya viste lo fácil que es.</p>
-        </div>
-        <div className="tarjeta">
-       <div className="cuadraditolio "><img src="/logo.png" alt="Logo" /></div>   
+    <div className="facilidad-container">
+  
+
+      <div className="content">
+        <h1 className="facil">YA VISTE LO FÁCIL QUE ES?</h1>
+        <div className="cajitaTexto">
           <p>
-            Te toma más tiempo salir<br />
-            de nuestra web de lo que<br />
-            tardaremos en devolverte<br />
-            un análisis ideal y completo.
-          </p>
-        </div>
-        <div className="tarjeta">
-            <div className="cuadraditolio "><img src="/riesgo.png" alt="Riesgo"  className='a3'/></div>
-          
-          <p>
-            Reducí tus riesgos,<br />
-            cuidá tu tiempo,<br />
-            usá FISA.
+            Te toma más tiempo salir de nuestra web<br />
+            de lo que tardaremos en devolverte<br />
+            un análisis completo.
           </p>
         </div>
       </div>
-    </section>
+
+      <footer className="footer">
+        <div className="left">
+          <img src="/logo.png" alt="Logo" className="loguin" />  <span className="logo10">FISA</span>
+          <span>Copyright © 2025 Fisa</span>
+        </div>
+        <div className="right">
+          <p>Contactanos</p>
+          <p>@Fisa.ig</p>
+          <p>@Fisa.tw</p>
+        </div>
+      </footer>
+    </div>
   );
 };
 
-export default Pantalla5;
+export default pantalla5;
